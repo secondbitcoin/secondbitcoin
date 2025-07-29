@@ -4216,6 +4216,26 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, BlockValidatio
 
     // Check against checkpoints
     if (chainman.m_options.checkpoints_enabled) {
+	const auto& checkpointData = chainman.GetParams().Checkpoints();
+        const auto& checkpoints = checkpointData.mapCheckpoints;
+
+        // Check if current block height matches any checkpoint
+        auto checkpoint_it = checkpoints.find(nHeight);
+        if (checkpoint_it != checkpoints.end()) {
+            // Found a checkpoint at this height, verify the hash
+            const uint256& expected_hash = checkpoint_it->second;
+            const uint256& block_hash = block.GetHash();
+
+            if (block_hash != expected_hash) {
+                LogPrintf("ERROR: %s: block hash mismatch at checkpoint height %d. Expected: %s, Got: %s\n",
+                         __func__, nHeight, expected_hash.ToString(), block_hash.ToString());
+                return state.Invalid(BlockValidationResult::BLOCK_CHECKPOINT, "bad-checkpoint-hash",
+                                   "block hash does not match checkpoint");
+            }
+
+            LogPrintf("INFO: %s: checkpoint validated at height %d with hash %s\n",
+                     __func__, nHeight, block_hash.ToString());
+        }
         // Don't accept any forks from the main chain prior to last checkpoint.
         // GetLastCheckpoint finds the last checkpoint in MapCheckpoints that's in our
         // BlockIndex().
