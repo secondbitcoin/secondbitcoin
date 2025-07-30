@@ -6,7 +6,24 @@ http://secondbitcoin.com
 What is Secondbitcoin?
 ----------------------
 
-Secondbitcoin is a folked block chain from the Bitcoin genesis block. It's software is based on Bitcoin Core.
+Secondbitcoin is an educational blockchain project forked from Bitcoin's genesis block. Designed for students and developers, it provides a hands-on sandbox to explore blockchain fundamentals such as block creation, difficulty adjustments, and network bootstrapping.
+
+How to Use It?
+--------------
+
+To get started with Secondbitcoin, follow these steps:
+
+Clone the Repository: Check out the v0.12.1-second branch from the GitHub repository.
+
+git clone https://github.com/secondbitcoin/secondbitcoin.git
+cd secondbitcoin
+git checkout v0.12.1-second
+
+Set Up Environment: Build the project on Ubuntu Server 16.04 LTS. You can install Ubuntu on a VMware virtual machine. VMware Workstation Pro is available for free for personal use.
+
+Build Instructions: Refer to the Bitcoin Core build documentation for detailed steps to compile and run the full node.
+
+For further assistance, explore the wiki or contact the project team at cubist.signer_7f@icloud.com 
 
 Bitcoin Core integration/staging tree
 =====================================
