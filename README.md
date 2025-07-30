@@ -102,7 +102,7 @@ We welcome contributions to the Secondbitcoin project!
 
 ### Community
 
-- **Discussions**: Join project discussions in the GitHub repository
+- **Discussions**: Join [project discussions](https://github.com/secondbitcoin/secondbitcoin/discussions) in the GitHub repository
 - **Website**: Visit [secondbitcoin.com](http://secondbitcoin.com) for updates and announcements
 
 ## License
