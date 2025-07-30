@@ -1,4 +1,12 @@
+Secondbitcoin
+=============
 
+https://secondbitcoin.com
+
+What is Secondbitcoin?
+----------------------
+
+Secondbitcoin is a folked block chain from the Bitcoin genesis block. It's software is based on Bitcoin Core.
 
 Bitcoin Core integration/staging tree
 =====================================
