@@ -16,15 +16,13 @@ To get started with Secondbitcoin, follow these steps:
 ### Clone the Repository
 Check out either the v0.12.1-second or v0.29.0-second branch from the GitHub repository:
 
-$ git clone https://github.com/secondbitcoin/secondbitcoin.git
+`$ git clone https://github.com/secondbitcoin/secondbitcoin.git`
 
-$ cd secondbitcoin
+`$ cd secondbitcoin`
 
-$ git checkout v0.12.1-second
-
+`$ git checkout v0.12.1-second`
 or 
-
-$ git checkout v29.0-second
+`$ git checkout v29.0-second`
 
 ### Set Up Environment
 Build the project using the following configurations:
@@ -38,7 +36,7 @@ You can install Ubuntu on a VMware virtual machine; VMware Workstation Pro is av
 ### Build Instructions
 Refer to the Bitcoin Core build documentation for detailed steps to compile and run the full node. For the v0.12.1-second branch, enable mining by adding the following line to your bitcoin.conf file:
 
-gen=1
+`gen=1`
 
 Support
 -------
