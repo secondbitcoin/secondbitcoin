@@ -9,6 +9,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/secondbitcoin/secondbitcoin)](https://github.com/secondbitcoin/secondbitcoin/issues)
 
+http://secondbitcoin.com
+
 ## What is Secondbitcoin?
 
 Secondbitcoin is an independent blockchain network that forked from Bitcoin's genesis block, creating a separate chain. The project uses modified software based on the original Bitcoin Core codebase.
