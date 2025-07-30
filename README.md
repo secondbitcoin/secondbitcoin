@@ -90,9 +90,6 @@ We welcome contributions to the Secondbitcoin project!
 
 ## Documentation
 
-- [Build Instructions](doc/build-unix.md)
-- [Configuration Guide](doc/configuration.md)
-- [API Documentation](doc/REST-interface.md)
 - [Project Wiki](https://github.com/secondbitcoin/secondbitcoin/wiki)
 
 ## Support
