@@ -16,7 +16,9 @@ To get started with Secondbitcoin, follow these steps:
 Clone the Repository: Check out the v0.12.1-second branch from the GitHub repository.
 
 git clone https://github.com/secondbitcoin/secondbitcoin.git
+
 cd secondbitcoin
+
 git checkout v0.12.1-second
 
 Set Up Environment: Build the project on Ubuntu Server 16.04 LTS. You can install Ubuntu on a VMware virtual machine. VMware Workstation Pro is available for free for personal use.
