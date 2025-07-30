@@ -35,7 +35,7 @@ or
 
 
 ### Build Instructions
-Refer to the Bitcoin Core build documentation for detailed steps to compile and run the full node. For the v0.12.1-second branch, enable mining by adding the following line to your bitcoin.conf file:
+Refer to the Bitcoin Core build documentation for detailed steps to compile and run the full node. For the v0.12.1-second branch, enable mining by adding the following line to your `bitcoin.conf` file:
 
 `gen=1`
 
