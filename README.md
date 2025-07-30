@@ -60,7 +60,7 @@ git checkout v29.0-second
 #### 3. Build the Project
 
 Follow the [Bitcoin Core build documentation](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md) for detailed compilation instructions. 
-```
+
 
 > **Note**: Specific build dependencies and configuration options may vary between versions. Refer to the `doc/` directory in your chosen branch for version-specific instructions.
 
