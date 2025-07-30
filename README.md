@@ -44,7 +44,7 @@ For the v0.12.1-second branch, enable mining by adding the following line to you
 
 Support
 -------
-For further assistance, explore the wiki or contact the project team at cubist.signer_7f@icloud.com. 
+For further assistance, explore the [wiki](/wiki) or contact the project team at cubist.signer_7f@icloud.com. 
 
 Bitcoin Core integration/staging tree
 =====================================
