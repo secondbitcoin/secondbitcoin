@@ -6,7 +6,7 @@ http://secondbitcoin.com
 What is Secondbitcoin?
 ----------------------
 
-Secondbitcoin is an educational blockchain project forked from Bitcoin's genesis block. Designed for students and developers, it provides a hands-on sandbox to explore blockchain fundamentals such as block creation, difficulty adjustments, and network bootstrapping.
+Secondbitcoin is a blockchain project forked from Bitcoin's genesis block.
 
 How to Use It?
 --------------
