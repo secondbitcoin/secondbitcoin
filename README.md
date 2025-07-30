@@ -1,53 +1,119 @@
-Secondbitcoin
-=============
-
-http://secondbitcoin.com
-
-What is Secondbitcoin?
-----------------------
-
-Secondbitcoin is a blockchain project forked from Bitcoin's genesis block, designed to offer a unique exploration of blockchain technology.
-
-How to Use It?
---------------
-
-To get started with Secondbitcoin, follow these steps:
-
-### Set Up Environment
-Build the project using the following configurations:
-
-**v0.12.1-second** branch on Ubuntu 16.04 LTS.
-
-**v29.0-second** branch on Ubuntu 24.04 LTS. 
-
-You can install Ubuntu on a VMware virtual machine; VMware Workstation Pro is available for free for personal use.
-
-### Clone the Repository
-Check out either the v0.12.1-second or v0.29.0-second branch from the GitHub repository:
-
-`$ git clone https://github.com/secondbitcoin/secondbitcoin.git`
-
-`$ cd secondbitcoin`
-
-`$ git checkout v0.12.1-second`
-or 
-`$ git checkout v29.0-second`
 
 
-### Build Instructions
-Refer to the Bitcoin Core build documentation for detailed steps to compile and run the full node.
+
+
+
+# Secondbitcoin
+
+[![Website](https://img.shields.io/badge/Website-secondbitcoin.com-blue)](http://secondbitcoin.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/secondbitcoin/secondbitcoin)](https://github.com/secondbitcoin/secondbitcoin/issues)
+
+## What is Secondbitcoin?
+
+Secondbitcoin is an independent blockchain network that forked from Bitcoin's genesis block, creating a separate chain. The project uses modified software based on the original Bitcoin Core codebase.
+
+This project serves as a testing ground for blockchain technology exploration and cryptocurrency development, providing developers and researchers with an environment to experiment with Bitcoin-based protocols without affecting the main Bitcoin network.
+
+## Features
+
+- **Genesis Fork**: Built from Bitcoin's original genesis block
+- **Dual Version Support**: Compatible with both legacy (v0.12.1) and modern (v29.0) implementations
+- **Mining Enabled**: Built-in mining capabilities for network participation (v0.12.1 only)
+- **Full Node Support**: Complete blockchain node implementation
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following:
+
+- **Operating System**: 
+  - Ubuntu 16.04 LTS (for v0.12.1-second)
+  - Ubuntu 24.04 LTS (for v29.0-second)
+- **Build Tools**: Standard C++ development environment
+- **Git**: For repository management
+
+### Installation
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/secondbitcoin/secondbitcoin.git
+cd secondbitcoin
+```
+
+#### 2. Select Your Version
+
+Choose the appropriate branch based on your Ubuntu version:
+
+**For Ubuntu 16.04 LTS:**
+```bash
+git checkout v0.12.1-second
+```
+
+**For Ubuntu 24.04 LTS:**
+```bash
+git checkout v29.0-second
+```
+
+#### 3. Build the Project
+
+Follow the [Bitcoin Core build documentation](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md) for detailed compilation instructions. 
+```
+
+> **Note**: Specific build dependencies and configuration options may vary between versions. Refer to the `doc/` directory in your chosen branch for version-specific instructions.
 
 ### Configuration
-For the v0.12.1-second branch, enable mining by adding the following line to your `bitcoin.conf` file:
 
-`gen=1`
+#### Mining Setup (v0.12.1-second)
 
-Support
--------
-For further assistance, explore the wiki or contact cubist.signer_7f@icloud.com. 
+To enable mining on the v0.12.1-second branch, add the following configuration to your `bitcoin.conf` file:
+
+```ini
+gen=1
+```
+
+The configuration file is typically located at:
+- **Linux**: `~/.bitcoin/bitcoin.conf`
+- **Create the file if it doesn't exist**
 
 
 
+
+## Contributing
+
+We welcome contributions to the Secondbitcoin project! 
+
+
+## Documentation
+
+- [Build Instructions](doc/build-unix.md)
+- [Configuration Guide](doc/configuration.md)
+- [API Documentation](doc/REST-interface.md)
+- [Project Wiki](https://github.com/secondbitcoin/secondbitcoin/wiki)
+
+## Support
+
+### Getting Help
+
+- **Wiki**: Explore our comprehensive [project wiki](https://github.com/secondbitcoin/secondbitcoin/wiki)
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/secondbitcoin/secondbitcoin/issues)
+- **Email**: Contact the development team at [cubist.signer_7f@icloud.com](mailto:cubist.signer_7f@icloud.com)
+
+### Community
+
+- **Discussions**: Join project discussions in the GitHub repository
+- **Website**: Visit [secondbitcoin.com](http://secondbitcoin.com) for updates and announcements
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **Bitcoin Core**: This project is built upon the foundational work of the Bitcoin Core development team
+- **Open Source Community**: Thanks to all contributors who make blockchain development possible
 
 
 ## ⚠️ Important Disclaimer
@@ -69,16 +135,6 @@ For further assistance, explore the wiki or contact cubist.signer_7f@icloud.com.
 
 
 **Below is the original README file from Bitcoin Core, preserved for reference.**
-
-
-
-
-
-
-
-
-
-
 
 
 Bitcoin Core integration/staging tree
