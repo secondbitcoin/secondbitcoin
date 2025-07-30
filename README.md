@@ -63,8 +63,7 @@ For further assistance, explore the wiki or contact cubist.signer_7f@icloud.com.
 - This is experimental software provided for educational and research purposes only
 - Use at your own risk - no warranties or guarantees are provided
 - Do not use this software in production environments without thorough testing
-- Always verify you are connected to the correct network before making any transactions
-- Keep backups of your wallet files and private keys
+
 
 **By using this software, you acknowledge that you understand these risks and accept full responsibility for any losses that may occur.**
 
