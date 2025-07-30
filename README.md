@@ -44,7 +44,29 @@ For the v0.12.1-second branch, enable mining by adding the following line to you
 
 Support
 -------
-For further assistance, explore the wiki or contact the project team at cubist.signer_7f@icloud.com. 
+For further assistance, explore the wiki or contact cubist.signer_7f@icloud.com. 
+
+
+
+
+
+## ⚠️ Important Disclaimer
+
+**CRITICAL WARNING**: 
+
+- **This is NOT Bitcoin**: Secondbitcoin is a completely separate blockchain network and is NOT the official Bitcoin (BTC)
+- **Do NOT transfer BTC**: Never send Bitcoin (BTC) to Secondbitcoin addresses - your funds will be **permanently lost**
+- **Do NOT transfer to BTC**: Never attempt to send Secondbitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
+- **Different Networks**: These are entirely separate blockchain networks with no interoperability
+
+**Additional Warnings**:
+- This is experimental software provided for educational and research purposes only
+- Use at your own risk - no warranties or guarantees are provided
+- Do not use this software in production environments without thorough testing
+- Always verify you are connected to the correct network before making any transactions
+- Keep backups of your wallet files and private keys
+
+**By using this software, you acknowledge that you understand these risks and accept full responsibility for any losses that may occur.**
 
 
 **Below is the original README file from Bitcoin Core, preserved for reference.**
