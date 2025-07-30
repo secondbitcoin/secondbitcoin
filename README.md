@@ -1,7 +1,7 @@
 Secondbitcoin
 =============
 
-https://secondbitcoin.com
+http://secondbitcoin.com
 
 What is Secondbitcoin?
 ----------------------
