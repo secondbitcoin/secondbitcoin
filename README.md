@@ -46,6 +46,20 @@ Support
 -------
 For further assistance, explore the wiki or contact the project team at cubist.signer_7f@icloud.com. 
 
+
+**Below is the original README file from Bitcoin Core, preserved for reference.**
+
+
+
+
+
+
+
+
+
+
+
+
 Bitcoin Core integration/staging tree
 =====================================
 
