@@ -3,7 +3,7 @@
 
 
 
-# Secondbitcoin
+# SecondBitcoin
 
 [![Website](https://img.shields.io/badge/Website-secondbitcoin.com-blue)](http://secondbitcoin.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -11,13 +11,13 @@
 
 http://secondbitcoin.com
 
-## What is Secondbitcoin?
+## What is SecondBitcoin?
 
-Secondbitcoin is an independent blockchain network that forked from Bitcoin's genesis block, creating a separate chain with its own unique development path. The project uses modified software based on the original Bitcoin Core codebase, with minimal changes to maintain familiarity.
+SecondBitcoin is an independent blockchain network that forked from Bitcoin's genesis block, creating a separate chain with its own unique development path. The project uses modified software based on the original Bitcoin Core codebase, with minimal changes to maintain familiarity.
 
 
 
-**Important Note**: To minimize code changes, Secondbitcoin retains ALL original Bitcoin references in the codebase. This includes binary names, configuration files, command names, text strings, images, and user interface elements that still display "Bitcoin", "BTC", or "bitcoin-core". **All original texts in the software remain unchanged**. 
+**Important Note**: To minimize code changes, SecondBitcoin retains ALL original Bitcoin references in the codebase. This includes binary names, configuration files, command names, text strings, images, and user interface elements that still display "Bitcoin", "BTC", or "bitcoin-core". **All original texts in the software remain unchanged**. 
 
 **Do not confuse this with official Bitcoin/BTC/Bitcoin Core** - despite all the original branding and text being preserved, this is a completely separate network and software implementation running on an independent blockchain.
 
@@ -91,7 +91,7 @@ The configuration file is typically located at:
 
 ## Contributing
 
-We welcome contributions to the Secondbitcoin project! 
+We welcome contributions to the SecondBitcoin project! 
 
 
 ## Documentation
@@ -125,9 +125,9 @@ This project is licensed under the MIT License.
 
 **CRITICAL WARNING**: 
 
-- **This is NOT Bitcoin**: Secondbitcoin is a completely separate blockchain network and is NOT the official Bitcoin (BTC)
-- **Do NOT transfer BTC**: Never send Bitcoin (BTC) to Secondbitcoin addresses - your funds will be **permanently lost**
-- **Do NOT transfer to BTC**: Never attempt to send Secondbitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
+- **This is NOT Bitcoin**: SecondBitcoin is a completely separate blockchain network and is NOT the official Bitcoin (BTC)
+- **Do NOT transfer BTC**: Never send Bitcoin (BTC) to SecondBitcoin addresses - your funds will be **permanently lost**
+- **Do NOT transfer to BTC**: Never attempt to send SecondBitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
 - **Different Networks**: These are entirely separate blockchain networks with no interoperability
 
 **Additional Warnings**:
