@@ -127,6 +127,8 @@ This project is licensed under the MIT License.
 - **Do NOT transfer to BTC**: Never attempt to send SecondBitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
 - **Different Networks**: These are entirely separate blockchain networks with no interoperability
 
+**Alpha Test Phase**: This blockchain/software is currently in Alpha Test stage. Use at your own risk. 
+
 **Additional Warnings**:
 - This is experimental software provided for educational and research purposes only
 - Use at your own risk - no warranties or guarantees are provided
