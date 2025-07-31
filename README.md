@@ -27,6 +27,27 @@ SecondBitcoin is an independent blockchain network that forked from Bitcoin's ge
 - **Mining Enabled**: Built-in mining capabilities for network participation (v0.12.1 only)
 - **Full Node Support**: Complete blockchain node implementation
 
+## ⚠️ Important Disclaimer
+
+**CRITICAL WARNING**: 
+
+- **This is NOT Bitcoin**: SecondBitcoin is a completely separate blockchain network and is NOT the official Bitcoin (BTC)
+- **Do NOT transfer BTC**: Never send Bitcoin (BTC) to SecondBitcoin addresses - your funds will be **permanently lost**
+- **Do NOT transfer to BTC**: Never attempt to send SecondBitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
+- **Different Networks**: These are entirely separate blockchain networks with no interoperability
+
+**Alpha Test Phase**: This blockchain/software is currently in Alpha Test stage. Use at your own risk. 
+
+**Additional Warnings**:
+- This is experimental software provided for educational and research purposes only
+- Use at your own risk - no warranties or guarantees are provided
+- Do not use this software in production environments without thorough testing
+
+
+**By using this software, you acknowledge that you understand these risks and accept full responsibility for any losses that may occur.**
+
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -117,25 +138,6 @@ This project is licensed under the MIT License.
 - **Bitcoin Core**: This project is built upon the foundational work of the Bitcoin Core development team
 - **Open Source Community**: Thanks to all contributors who make blockchain development possible
 
-
-## ⚠️ Important Disclaimer
-
-**CRITICAL WARNING**: 
-
-- **This is NOT Bitcoin**: SecondBitcoin is a completely separate blockchain network and is NOT the official Bitcoin (BTC)
-- **Do NOT transfer BTC**: Never send Bitcoin (BTC) to SecondBitcoin addresses - your funds will be **permanently lost**
-- **Do NOT transfer to BTC**: Never attempt to send SecondBitcoin coins to Bitcoin addresses - your funds will be **permanently lost**
-- **Different Networks**: These are entirely separate blockchain networks with no interoperability
-
-**Alpha Test Phase**: This blockchain/software is currently in Alpha Test stage. Use at your own risk. 
-
-**Additional Warnings**:
-- This is experimental software provided for educational and research purposes only
-- Use at your own risk - no warranties or guarantees are provided
-- Do not use this software in production environments without thorough testing
-
-
-**By using this software, you acknowledge that you understand these risks and accept full responsibility for any losses that may occur.**
 
 
 **Below is the original README file from Bitcoin Core, preserved for reference.**
