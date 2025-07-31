@@ -13,8 +13,7 @@ http://secondbitcoin.com
 
 ## What is SecondBitcoin?
 
-SecondBitcoin is an independent blockchain network that forked from Bitcoin's genesis block, creating a separate chain with its own unique development path. The project uses modified software based on the original Bitcoin Core codebase, with minimal changes to maintain familiarity.
-
+SecondBitcoin is an independent blockchain network that forked from Bitcoin's genesis block. Uses modified Bitcoin Core codebase with minimal changes.
 
 
 **Important Note**: To minimize code changes, SecondBitcoin retains ALL original Bitcoin references in the codebase. This includes binary names, configuration files, command names, text strings, images, and user interface elements that still display "Bitcoin", "BTC", or "bitcoin-core". **All original texts in the software remain unchanged**. 
