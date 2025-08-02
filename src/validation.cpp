@@ -2443,6 +2443,17 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
     AssertLockHeld(cs_main);
     assert(pindex);
 
+    // Protect the SecondBitcoin chain from attacks by the Bitcoin chain.
+    if (pindex->nHeight == 1) {
+        std::string expectedHashStr = "0000000016bb225853786f79eeef25a026b282ecf5cd4e395d9716a00ef7ade3";
+        std::string blockHashStr = block.GetHash().ToString();
+        if (blockHashStr != expectedHashStr) {
+            LogPrintf("ERROR: Wrong block at height 1! Expected %s, got %s\n",
+                     expectedHashStr, blockHashStr);
+            return false;
+        }
+    }
+
     uint256 block_hash{block.GetHash()};
     assert(*pindex->phashBlock == block_hash);
     const bool parallel_script_checks{m_chainman.GetCheckQueue().HasThreads()};
@@ -4216,26 +4227,6 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, BlockValidatio
 
     // Check against checkpoints
     if (chainman.m_options.checkpoints_enabled) {
-	const auto& checkpointData = chainman.GetParams().Checkpoints();
-        const auto& checkpoints = checkpointData.mapCheckpoints;
-
-        // Check if current block height matches any checkpoint
-        auto checkpoint_it = checkpoints.find(nHeight);
-        if (checkpoint_it != checkpoints.end()) {
-            // Found a checkpoint at this height, verify the hash
-            const uint256& expected_hash = checkpoint_it->second;
-            const uint256& block_hash = block.GetHash();
-
-            if (block_hash != expected_hash) {
-                LogPrintf("ERROR: %s: block hash mismatch at checkpoint height %d. Expected: %s, Got: %s\n",
-                         __func__, nHeight, expected_hash.ToString(), block_hash.ToString());
-                return state.Invalid(BlockValidationResult::BLOCK_CHECKPOINT, "bad-checkpoint-hash",
-                                   "block hash does not match checkpoint");
-            }
-
-            LogPrintf("INFO: %s: checkpoint validated at height %d with hash %s\n",
-                     __func__, nHeight, block_hash.ToString());
-        }
         // Don't accept any forks from the main chain prior to last checkpoint.
         // GetLastCheckpoint finds the last checkpoint in MapCheckpoints that's in our
         // BlockIndex().
