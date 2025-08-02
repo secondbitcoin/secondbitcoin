@@ -2445,7 +2445,7 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
 
     // Protect the SecondBitcoin chain from attacks by the Bitcoin chain.
     if (pindex->nHeight == 1) {
-        std::string expectedHashStr = "0000000016bb225853786f79eeef25a026b282ecf5cd4e395d9716a00ef7ade3";
+        std::string expectedHashStr = "0000000006f170e6fe7be657832d6bf3062178706a8ef9510337d11551e99b6e";
         std::string blockHashStr = block.GetHash().ToString();
         if (blockHashStr != expectedHashStr) {
             LogPrintf("ERROR: Wrong block at height 1! Expected %s, got %s\n",
