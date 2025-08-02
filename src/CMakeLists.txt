@@ -329,17 +329,17 @@ target_link_libraries(bitcoin_node
 
 # Bitcoin Core bitcoind.
 if(BUILD_DAEMON)
-  add_executable(secondbitcoind
+  add_executable(bitcoind
     bitcoind.cpp
     init/bitcoind.cpp
   )
-  add_windows_resources(secondbitcoind bitcoind-res.rc)
-  target_link_libraries(secondbitcoind
+  add_windows_resources(bitcoind bitcoind-res.rc)
+  target_link_libraries(bitcoind
     core_interface
     bitcoin_node
     $<TARGET_NAME_IF_EXISTS:bitcoin_wallet>
   )
-  install_binary_component(secondbitcoind HAS_MANPAGE)
+  install_binary_component(bitcoind HAS_MANPAGE)
 endif()
 if(WITH_MULTIPROCESS AND BUILD_DAEMON)
   add_executable(bitcoin-node
